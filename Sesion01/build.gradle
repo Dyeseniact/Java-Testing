@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17;
+}
+
+group 'org.bedu.sesion01'
+
+repositories {
+    mavenCentral()
+}
